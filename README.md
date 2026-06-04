@@ -1,6 +1,6 @@
-# Jomoro Koffee — Microservices Backend
+# Jomoro Koffee — Microservices
 
-Sistem backend berbasis Microservice untuk rantai kedai kopi "Jomoro Koffee". Project ini terdiri dari 3 service NestJS mandiri yang saling berkomunikasi menggunakan protokol HTTP.
+Sistem backend berbasis Microservice untuk kedai kopi "Jomoro Koffee". Project ini terdiri dari 3 service NestJS mandiri yang saling berkomunikasi menggunakan protokol HTTP.
 
 ---
 
@@ -116,17 +116,3 @@ Setiap microservice telah dilengkapi dengan dokumentasi interaktif **Swagger UI*
     -   Email: `customer@jomoro.com`
     -   Password: `customer1234`
 
----
-
-## 6. Uji Coba Otomatis (E2E Integration Test)
-
-Kami telah menyiapkan script test E2E di root project untuk menguji seluruh alur integrasi antar-layanan (Login -> Detail Profil -> Buat Produk Baru oleh Admin -> Masukkan ke Keranjang Belanja -> Checkout -> Pengurangan Stok Otomatis).
-
-**Cara menjalankan tes:**
-1. Pastikan ketiga microservice di atas sudah dalam keadaan berjalan (`running`).
-2. Buka terminal baru di folder root project (`D:\JOMORO`).
-3. Jalankan perintah:
-   ```bash
-   node test-e2e.js
-   ```
-4. Output terminal akan menampilkan log langkah-langkah pengetesan hingga berhasil (`ALL INTEGRATION TESTS PASSED SUCCESSFULLY!`).
