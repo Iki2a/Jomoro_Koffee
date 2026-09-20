@@ -81,7 +81,7 @@ npx ts-node prisma/seed.ts
 ## 4. Cara Menjalankan Microservices
 
 Buka 3 tab terminal terpisah untuk menjalankan masing-masing microservice:
-
+```
 *   **Tab Terminal 1 (Auth Service)**:
     ```bash
     cd auth-service
@@ -101,7 +101,7 @@ Buka 3 tab terminal terpisah untuk menjalankan masing-masing microservice:
 ---
 
 ## 5. Cara Melihat & Menguji API (Swagger UI)
-
+```
 Setiap microservice telah dilengkapi dengan dokumentasi interaktif **Swagger UI**. Buka peramban (browser) Anda ke alamat berikut:
 
 *   **Auth Service API**: [http://localhost:3001/api](http://localhost:3001/api)
