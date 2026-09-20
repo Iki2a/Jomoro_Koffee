@@ -66,7 +66,7 @@ npx prisma db push
 
 ### C. Seeding Data Awal (Opsional)
 Kami menyediakan data awal (user admin, user customer, kategori, dan produk kopi) yang dapat langsung dimasukkan ke database:
-```bash
+```bash.
 # Seed data user di Auth Service
 cd auth-service
 npx ts-node prisma/seed.ts
